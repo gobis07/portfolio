@@ -1,0 +1,24 @@
+@import url("common.css");
+
+.certificat {
+    position:relative;
+    overflow: hidden;
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+}
+.certificat span, .project::before{
+    z-index: 1 !important;
+    color:#3569ed;
+    font-weight:700
+}
+.certificat img{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+    object-fit: contain;
+    margin-top: 10px;
+    border: 1px solid;
+}
